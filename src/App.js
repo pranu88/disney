@@ -5,16 +5,17 @@ import NewOnDisney from './components/NewOnDisney';
 import { Route , Routes } from 'react-router-dom';
 import Trending from './components/Trending';
 import ComingSoon from './components/ComingSoon';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-     <DisneyPlus/> 
+    <DisneyPlus/> 
     <Routes>
     <Route path='/NewOnDisney' element={<NewOnDisney/>}/>
     <Route path='/Trending' element={<Trending/>}/>
     <Route path='/ComingSoon' element={<ComingSoon/>}/>
     </Routes>
-    
+    <Footer/>
     </div>
   );
 }

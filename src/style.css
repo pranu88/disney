@@ -6,6 +6,9 @@
     padding: 20px;
    
 }
+body{
+    background-color: black;
+}
 b{
     font-weight: bold;
     
@@ -13,6 +16,7 @@ b{
 a{
     color: black;
 }
+
 .logIn{
     width:8em;
     height:4em;
@@ -41,10 +45,6 @@ a{
 .main{
     width:100%;
     height:50em;
-    /* background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2022-03/16/17/asset/a1e34d3ce130/sub-buzz-551-1647451114-1.png?downsize=700%3A%2A&output-quality=auto&output-format=auto'); */
-    /* background-image: url('https://pbs.twimg.com/media/FZqeHNnXkAA3PoP.png'); */
-    /* background-image: url('https://i.pinimg.com/736x/1f/46/59/1f465925ab7d7be7f1807d520945d514.jpg'); */
-    /* background-image: url('//cnbl-cdn.bamgrid.com/assets/e4eb1af942229e9212f65c3ccde854db7c0ace100248fa04a3c1c91260ef0248/original'); */
     background-image: url('https://cnbl-cdn.bamgrid.com/assets/ae5d2c288cf008ef994c7d360503cbaf2f1cd21c8cbca4b7b904a8595d0114ea/original');
     background-size:cover;
     color:silver;
@@ -73,13 +73,14 @@ a{
     border-radius: 8px;
 }
 .bundleImg{
-    width:15em;
+    width: 14em;
     margin-top: 17em;
+    /* margin-left: 2em; */
 }
 .huluAndDisneyImg{
     width:15em;
     margin-top: 18em;
-    /* margin-left: 5em; */
+   
 }
 .hAndD{
     display: flex;
@@ -100,26 +101,33 @@ a{
     margin-right: auto;
 }
 footer{    
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+    display: flex;    
     text-align: center;
-    display: block;
-    /* font-family: Avenir,sans-serif; */
-    font-size: 16px;
-    justify-content: space-around;
+    display: block;   
+    font-size: 14px;   
     background-color: black;
     color:silver;
     margin-bottom: 0px;
+    height: 20em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.9;
+    
 }
 footer img{
     width:5em;
-    height:5em;
-    /* background-color: black; */
+    height:5em;   
     margin-left: auto;
     margin-right:auto;
    
+}
+footer span{
+    margin-right: 2em;
+}
+footer a{
+    color: silver;
+    text-decoration: none;
 }
 
 .language{
@@ -137,8 +145,12 @@ margin-right:auto;
 box-sizing: content-box;
 flex-direction: column;
 }
-.section{
+.section2{
     display:flex;
     justify-content: space-evenly;
     font-weight: bold;
+   
+}
+.section2 .link{
+    color: white;
 }
