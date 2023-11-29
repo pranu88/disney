@@ -1,0 +1,144 @@
+.nav{
+    background-color: rgb(111, 235, 111);
+    /* line-height: 1.4px; */
+    height: 3em;
+    width: 100%;
+    padding: 20px;
+   
+}
+b{
+    font-weight: bold;
+    
+}
+a{
+    color: black;
+}
+.logIn{
+    width:8em;
+    height:4em;
+    margin-top:2em;
+    margin-left: 78em;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    border: solid white;
+    border-radius: 5px;
+}
+.logIn:hover{
+    width:8em;
+    height:4em;
+    margin-top:2em;
+    margin-left: 78em;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    border: solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.main{
+    width:100%;
+    height:50em;
+    /* background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2022-03/16/17/asset/a1e34d3ce130/sub-buzz-551-1647451114-1.png?downsize=700%3A%2A&output-quality=auto&output-format=auto'); */
+    /* background-image: url('https://pbs.twimg.com/media/FZqeHNnXkAA3PoP.png'); */
+    /* background-image: url('https://i.pinimg.com/736x/1f/46/59/1f465925ab7d7be7f1807d520945d514.jpg'); */
+    /* background-image: url('//cnbl-cdn.bamgrid.com/assets/e4eb1af942229e9212f65c3ccde854db7c0ace100248fa04a3c1c91260ef0248/original'); */
+    background-image: url('https://cnbl-cdn.bamgrid.com/assets/ae5d2c288cf008ef994c7d360503cbaf2f1cd21c8cbca4b7b904a8595d0114ea/original');
+    background-size:cover;
+    color:silver;
+}
+.main a{
+    color: white;
+}
+
+.huluAndDisney{
+    height: 4em;
+    width: 15em;
+    margin-top:2em;
+    background-color: #0682f0;
+    color:white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.disneyBundle{
+    height: 4em;
+    width: 15em;    
+    margin-left: 2em;
+    margin-top: 2em;
+    background-color: #0682f0;
+    color:white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.bundleImg{
+    width:15em;
+    margin-top: 17em;
+}
+.huluAndDisneyImg{
+    width:15em;
+    margin-top: 18em;
+    /* margin-left: 5em; */
+}
+.hAndD{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25em;
+}
+.dBundle{
+    display: flex;
+    flex-direction: column;
+    margin-left: -1em;
+    margin-top: 1em;
+   
+}
+.mainbuttons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: block;
+    /* font-family: Avenir,sans-serif; */
+    font-size: 16px;
+    justify-content: space-around;
+    background-color: black;
+    color:silver;
+    margin-bottom: 0px;
+}
+footer img{
+    width:5em;
+    height:5em;
+    /* background-color: black; */
+    margin-left: auto;
+    margin-right:auto;
+   
+}
+
+.language{
+    width:6em;
+}
+.newmovies{
+width:100%;
+height:50em;
+display:flex;
+justify-content: space-between;
+align-items: center;
+display: block;
+margin-left: auto;
+margin-right:auto;
+box-sizing: content-box;
+flex-direction: column;
+}
+.section{
+    display:flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
