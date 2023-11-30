@@ -36,13 +36,13 @@ function App() {
 
     {/* <DisneyPlus/>  */}
     <Routes>
-     <Route path='/' element={<Home/>}/> 
+    <Route path='/' element={<Home/>}/> 
     <Route path='/DisneyPlus' element={<DisneyPlus/>}/> 
     <Route path='/NewOnDisney' element={<NewOnDisney/>}/>
     <Route path='/Trending' element={<Trending/>}/>
     <Route path='/ComingSoon' element={<ComingSoon/>}/>
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   );
 }

@@ -23,7 +23,7 @@ function DisneyBody() {
        
       <img src='https://media.tenor.com/n3eZWmq4zmAAAAAC/elsa-frozen.gif'  
                 alt='NoImg'
-                width='1500'/> 
+                width='1000'/> 
       </div>
 
       <div className='cyberMondayDiv'>

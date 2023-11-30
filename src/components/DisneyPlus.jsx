@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 
 // import Nav from './Nav'
@@ -35,7 +36,7 @@ function DisneyPlus() {
        <Link to='/ComingSoon' className='link'><div>COMING SOON</div></Link>
        <Link to='/Trending' className='link'><div>TRENDING</div></Link>
     </div>
-   
+   <Footer/>
     </div>
   )
 }
