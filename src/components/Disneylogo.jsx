@@ -13,36 +13,29 @@ function Disneylogo() {
              width='100'/>
           </a >
 
-                {/* <a href="https://ondisneyplus.disney.com/">
-                    Disney+
-                </a >
-                 */}
+               
 
                 <Link to='/DisneyPlus'> Disney+ </Link>
 
 
                 
-                <a href="https://www.wholefoodsmarket.com/sales-flyer">
+                <a href="https://disneyparks.disney.go.com/?DISCID=DI_mtt_chrome">
                     PARKS & TRAVEL
                 </a >
                 
                
-                <a href="https://www.wholefoodsmarket.com/shop/choose">
+                <a href="https://movies.disney.com/">
                     MOVIES
                 </a >
-                <a href="https://www.wholefoodsmarket.com/shipped-to-you">
+                <a href="https://www.shopdisney.com/?cmp=OTL-Dcom_ChromShpIconB_Shop_EFC28055&efc=280559&att=DcomM_HP_Feed_DSIMobileRedirect_t">
                     SHOP
                 </a >
-                <a href="https://www.wholefoodsmarket.com/app/lunch-dinner-to-go?_branch_match_id=1154850883733696460&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8%2FIz0lNy89PKdZLLCjQy8nMy9aP9DRMz89KM%2FN1TAIAAYnv3ycAAAA%3D">
-                    MORE
+                  {/*href="https://www.wholefoodsmarket.com/app/lunch-dinner-to-go?_branch_match_id=1154850883733696460&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8%2FIz0lNy89PKdZLLCjQy8nMy9aP9DRMz89KM%2FN1TAIAAYnv3ycAAAA%3D" */}
+                    
+                    <a>MORE
                 </a >
 
-                <div className='signInclassDiv'>
-                    <a href="https://www.wholefoodsmarket.com/recipes">
-                        Recipes
-                    </a > 
-                </div>
-
+              
           
             </div>
 

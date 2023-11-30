@@ -133,7 +133,7 @@ footer a{
 .language{
     width:6em;
 }
-.newmovies{
+/* .newmovies{
 width:100%;
 height:50em;
 display:flex;
@@ -144,12 +144,12 @@ margin-left: auto;
 margin-right:auto;
 box-sizing: content-box;
 flex-direction: column;
-}
+} */
 .section2{
     display:flex;
     justify-content: space-evenly;
     font-weight: bold;
-   
+   margin-bottom: 5em;
 }
 .section2 .link{
     color: white;
